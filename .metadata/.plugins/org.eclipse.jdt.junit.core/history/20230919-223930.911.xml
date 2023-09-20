@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculadoraTest" project="junit5-curso" tests="2" started="2" failures="1" errors="0" ignored="0">
+  <testsuite name="CalculadoraTest" time="0.049" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]">
+    <testcase name="testSomar" classname="CalculadoraTest" time="0.03" displayname="testSomar()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:testSomar()]"/>
+    <testcase name="assertivas" classname="CalculadoraTest" time="0.018" displayname="assertivas()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:assertivas()]">
+      <failure>org.opentest4j.AssertionFailedError&#13;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:34)&#13;
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:115)&#13;
+	at CalculadoraTest.assertivas(CalculadoraTest.java:33)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

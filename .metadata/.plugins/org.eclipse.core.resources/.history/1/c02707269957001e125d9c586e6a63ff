@@ -60,4 +60,12 @@ public class CalculadoraTest {
 		float resultado = calc.dividir(0, 3);
 		Assertions.assertEquals(0, resultado);
 	}
+	
+	@Test
+	public void deveExplodirComDenominadorZeroNaDivisao() {
+//		throw new Erro();
+		throw new RuntimeException();
+		
+//		float resultado = 10 / 0;
+	}
 }

@@ -51,13 +51,6 @@ public class CalculadoraTest {
 	public void deveRetornarNumeroDecimalNaDivisao() {
 		Calculadora calc = new Calculadora();
 		float resultado = calc.dividir(10, 3);
-		Assertions.assertEquals(3.33, resultado, 0.01);
-	}
-	
-	@Test
-	public void deveRetornarZeroComNumeradroZeroNaDivisao() {
-		Calculadora calc = new Calculadora();
-		float resultado = calc.dividir(0, 3);
-		Assertions.assertEquals(0, resultado);
+		Assertions.assertEquals(3, resultado, 0.01);
 	}
 }
