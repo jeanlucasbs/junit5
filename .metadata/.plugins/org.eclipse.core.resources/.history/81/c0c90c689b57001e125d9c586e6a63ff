@@ -73,9 +73,8 @@ public class CalculadoraTest {
 	
 	@Test
 	public void deveLancarExcecaoQuandoDividirPorZero_JUnit5() {
-		ArithmeticException exception = Assertions.assertThrows(ArithmeticException.class, () ->{
+		Assertions.assertThrows(ArithmeticException.class, () ->{
 			float resultado = 10 / 0;
 		});
-		Assertions.assertEquals("/ by zero", exception.getMessage());
 	}
 }

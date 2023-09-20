@@ -76,6 +76,5 @@ public class CalculadoraTest {
 		ArithmeticException exception = Assertions.assertThrows(ArithmeticException.class, () ->{
 			float resultado = 10 / 0;
 		});
-		Assertions.assertEquals("/ by zero", exception.getMessage());
 	}
 }

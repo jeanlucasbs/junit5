@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculadoraTest" project="junit5-curso" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="CalculadoraTest" time="0.055" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]">
+    <testcase name="testSomar" classname="CalculadoraTest" time="0.031" displayname="testSomar()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:testSomar()]"/>
+    <testcase name="deveRetornarZeroComNumeradroZeroNaDivisao" classname="CalculadoraTest" time="0.005" displayname="deveRetornarZeroComNumeradroZeroNaDivisao()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:deveRetornarZeroComNumeradroZeroNaDivisao()]"/>
+    <testcase name="deveRetornarNumeroNegativoNaDivisao" classname="CalculadoraTest" time="0.002" displayname="deveRetornarNumeroNegativoNaDivisao()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:deveRetornarNumeroNegativoNaDivisao()]"/>
+    <testcase name="deveRetornarNumeroDecimalNaDivisao" classname="CalculadoraTest" time="0.001" displayname="deveRetornarNumeroDecimalNaDivisao()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:deveRetornarNumeroDecimalNaDivisao()]"/>
+    <testcase name="deveRetornarNumeroInteiroNaDivisao" classname="CalculadoraTest" time="0.002" displayname="deveRetornarNumeroInteiroNaDivisao()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:deveRetornarNumeroInteiroNaDivisao()]"/>
+    <testcase name="deveLancarExcecaoQuandoDividirPorZero_JUnit4" classname="CalculadoraTest" time="0.002" displayname="deveLancarExcecaoQuandoDividirPorZero_JUnit4()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:deveLancarExcecaoQuandoDividirPorZero_JUnit4()]"/>
+    <testcase name="deveLancarExcecaoQuandoDividirPorZero_JUnit5" classname="CalculadoraTest" time="0.003" displayname="deveLancarExcecaoQuandoDividirPorZero_JUnit5()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:deveLancarExcecaoQuandoDividirPorZero_JUnit5()]"/>
+    <testcase name="assertivas" classname="CalculadoraTest" time="0.004" displayname="assertivas()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:assertivas()]"/>
+  </testsuite>
+</testrun>

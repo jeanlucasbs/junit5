@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculadoraTest" project="junit5-curso" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="CalculadoraTest" time="0.061" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]">
+    <testcase name="testSomar" classname="CalculadoraTest" time="0.039" displayname="testSomar()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:testSomar()]"/>
+    <testcase name="deveRetornarZeroComNumeradroZeroNaDivisao" classname="CalculadoraTest" time="0.003" displayname="deveRetornarZeroComNumeradroZeroNaDivisao()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:deveRetornarZeroComNumeradroZeroNaDivisao()]"/>
+    <testcase name="deveRetornarNumeroNegativoNaDivisao" classname="CalculadoraTest" time="0.001" displayname="deveRetornarNumeroNegativoNaDivisao()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:deveRetornarNumeroNegativoNaDivisao()]"/>
+    <testcase name="deveRetornarNumeroDecimalNaDivisao" classname="CalculadoraTest" time="0.002" displayname="deveRetornarNumeroDecimalNaDivisao()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:deveRetornarNumeroDecimalNaDivisao()]"/>
+    <testcase name="deveExplodirComDenominadorZeroNaDivisao" classname="CalculadoraTest" time="0.002" displayname="deveExplodirComDenominadorZeroNaDivisao()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:deveExplodirComDenominadorZeroNaDivisao()]"/>
+    <testcase name="deveRetornarNumeroInteiroNaDivisao" classname="CalculadoraTest" time="0.001" displayname="deveRetornarNumeroInteiroNaDivisao()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:deveRetornarNumeroInteiroNaDivisao()]"/>
+    <testcase name="assertivas" classname="CalculadoraTest" time="0.006" displayname="assertivas()" uniqueid="[engine:junit-jupiter]/[class:CalculadoraTest]/[method:assertivas()]"/>
+  </testsuite>
+</testrun>
